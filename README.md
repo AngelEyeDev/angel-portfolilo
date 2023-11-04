@@ -1,7 +1,7 @@
 # Katashi Shingo's Homepage
 <!-- ![Katashi Shingo](/thumbnail.png) -->
 
-<img src="/thumbnail.png" alt="Katashi Shingo" style="border-radius: 7px">
+<img src="/me.png" alt="Katashi Shingo" style="border-radius: 7px">
 ## Stack
 
 - [React.js](https://reactjs.org/) - A JavaScript liblary for building user interfaces.
