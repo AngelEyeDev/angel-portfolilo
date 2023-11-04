@@ -47,13 +47,13 @@ export default function ContactMe() {
     setLoader(true);
     await emailjs
       .send(
-        "service_4id4y4f",
-        "template_fyslu1j",
+        "service_f6y1xdm",
+        "template_uzuhy9i",
         form,
-        "qXWjudIg1WdJlWMV8"
+        "KI0u7Oi2ZJHRsuS3u"
       )
       .then((result) => {
-        console.log(result.text);
+        // console.log(result.text);
         setLoader(false);
         setShowNotif(true);
         setTimeout(() => setShowNotif(false), 3000);
@@ -220,7 +220,7 @@ function Contacts() {
         >
           <Popover.Panel className="p-4 w-full flex flex-col gap-1.5">
             <a
-              href="https://join.skype.com/invite/tWdbCsnaGhDr"
+              href="https://join.skype.com/invite/wi0OPYTdZdJE"
               className="text-[#607B96] hover:text-white inline-flex items-center gap-2.5 transition-colors"
               target="_blank"
               rel="noreferrer"
@@ -235,10 +235,10 @@ function Contacts() {
               rel="noreferrer"
             >
               <MdCall />
-              <span>+13307526813</span>
+              <span>+8196-992-2778 </span>
             </a>
             <a
-              href="https://www.linkedin.com/in/james-roger-391758283/"
+              href="https://www.linkedin.com/in/katashi-shingo/"
               className="text-[#607B96] hover:text-white inline-flex items-center gap-2.5 transition-colors"
               target="_blank"
               rel="noreferrer"
@@ -247,11 +247,11 @@ function Contacts() {
               <span>Katashi Shingo</span>
             </a>
             <a
-              href="mailto:sse.james.roger76@gmail.com"
+              href="mailto:angeleyes20525@gmail.com"
               className="text-[#607B96] hover:text-white inline-flex items-center gap-2.5 transition-colors"
             >
               <MdEmail />
-              <span>see.james.roger76@gmail.com</span>
+              <span>angeleyes20525@gmail.com</span>
             </a>
           </Popover.Panel >
         </Transition >
