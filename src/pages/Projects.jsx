@@ -7,6 +7,7 @@ import { RiVuejsFill } from "@react-icons/all-files/ri/RiVuejsFill";
 import { SiAngular } from "@react-icons/all-files/si/SiAngular";
 import { SiWordpress } from "@react-icons/all-files/si/SiWordpress";
 import { SiNextDotJs } from "@react-icons/all-files/si/SiNextDotJs";
+import { SiPython } from "@react-icons/all-files/si/SiPython";
 import { motion } from "framer-motion";
 import { Fragment, useState } from "react";
 import datas from "../data/ProjectData.json";
@@ -116,6 +117,16 @@ export default function Projects() {
               >
                 <SiWordpress />
                 <span>WordPress</span>
+              </button>
+            </div>
+            <div className="flex items-center gap-6">
+              <button
+                className={`flex items-center gap-2.5 cursor-pointer transition-colors hover:text-white w-full ${filter === "Blender" ? "text-white" : "text-[#607B96]"
+                  }`}
+                onClick={() => setFilter("Python")}
+              >
+                <SiPython />
+                <span>Python</span>
               </button>
             </div>
           </Transition>
