@@ -218,7 +218,7 @@ export default function Layout({ children, setIsNavbar, isNavbar }) {
           </div>
           <div className="col-span-10 flex items-center justify-end ">
             <a
-              href="https://github.com/AngelEyeDev"
+              href="https://github.com/devilhacker0119"
               className="flex items-center justify-center gap-1.5 pl-4 border-l border-[#1E2D3D] py-1.5 hover:text-white transition-colors pr-4"
               target="_blank"
               rel="noreferrer"

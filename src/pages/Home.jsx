@@ -79,12 +79,12 @@ export default function Home() {
               <span className="text-[#43D9AD]">githubLink</span>{" "}
               <span className="text-white">=</span>{" "}                        
               <a
-                href="https://github.com/AngelEyeDev"
+                href="https://github.com/devilhacker0119"
                 className="text-[#E99287]"
                 target="_blank"
                 rel="noreferrer"
               >
-                "https://github.com/AngelEyeDev"
+                "https://github.com/devilhacker0119"
               </a>
             </p>
           </div>
