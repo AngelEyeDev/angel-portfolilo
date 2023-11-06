@@ -3,6 +3,7 @@ import { Popover, Transition } from "@headlessui/react";
 import { AiOutlineClose } from "@react-icons/all-files/ai/AiOutlineClose";
 import { AiOutlineSkype } from "@react-icons/all-files/ai/AiOutlineSkype";
 import { GoTriangleDown } from "@react-icons/all-files/go/GoTriangleDown";
+import { FaTelegram } from "@react-icons/all-files/fa/FaTelegram";
 import { GrLinkedinOption } from "@react-icons/all-files/gr/GrLinkedinOption";
 import { MdCall } from "@react-icons/all-files/md/MdCall";
 import { MdEmail } from "@react-icons/all-files/md/MdEmail";
@@ -229,6 +230,15 @@ function Contacts() {
               <span>Katashi Shingo</span>
             </a>
             <a
+              href="https://t.me/angel_devil_eyes"
+              className="text-[#607B96] hover:text-white inline-flex items-center gap-2.5 transition-colors"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaTelegram className="text-[19px]" />
+              <span>Angel Eyes</span>
+            </a>
+            <a
               href=""
               className="text-[#607B96] hover:text-white inline-flex items-center gap-2.5 transition-colors"
               target="_blank"
@@ -238,7 +248,7 @@ function Contacts() {
               <span>+8196-992-2778 </span>
             </a>
             <a
-              href="https://www.linkedin.com/in/katashi-shingo/"
+              href="https://www.linkedin.com/in/katashi-shingo-67b50729a/"
               className="text-[#607B96] hover:text-white inline-flex items-center gap-2.5 transition-colors"
               target="_blank"
               rel="noreferrer"
